@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: 100vh;
+    width: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bulb{
+    background-color: transparent;
+    height: 400px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.bulb #img{
+    width: auto;
+    height: auto;
+
+}
+.bulb #img2 {
+    width: auto;
+    height: auto;
+    display: none;
+
+}
+.container #btn{
+    width: 80px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: aqua;
+    margin-top: 40%;
+    border-radius: 30px;
+    border: 1px solid transparent;
+
+    
+}
